@@ -107,12 +107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-smartypants.git",
-                "reference": "e4a873d4a4e0f3dd6fbf5b9e017362f174eb28df"
+                "reference": "8729ae078b2acfdb2a53fc5c9be6594be7bed859"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-smartypants/zipball/e4a873d4a4e0f3dd6fbf5b9e017362f174eb28df",
-                "reference": "e4a873d4a4e0f3dd6fbf5b9e017362f174eb28df",
+                "url": "https://api.github.com/repos/michelf/php-smartypants/zipball/8729ae078b2acfdb2a53fc5c9be6594be7bed859",
+                "reference": "8729ae078b2acfdb2a53fc5c9be6594be7bed859",
                 "shasum": ""
             },
             "require": {
@@ -137,16 +137,16 @@
                 {
                     "name": "Michel Fortin",
                     "email": "michel.fortin@michelf.ca",
-                    "homepage": "http://michelf.ca/",
+                    "homepage": "https://michelf.ca/",
                     "role": "Developer"
                 },
                 {
                     "name": "John Gruber",
-                    "homepage": "http://daringfireball.net/"
+                    "homepage": "https://daringfireball.net/"
                 }
             ],
             "description": "PHP SmartyPants",
-            "homepage": "http://michelf.ca/projects/php-smartypants/",
+            "homepage": "https://michelf.ca/projects/php-smartypants/",
             "keywords": [
                 "dashes",
                 "quotes",
@@ -154,20 +154,20 @@
                 "typographer",
                 "typography"
             ],
-            "time": "2013-08-02 10:48:47"
+            "time": "2016-10-16 22:59:05"
         },
         {
             "name": "mos/anax",
-            "version": "v2.5.11",
+            "version": "v2.5.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/anax.git",
-                "reference": "2b3d40ee39f8d4ec32cb0765b4c433ff312b9713"
+                "reference": "aec2412f3d33f3ba3e9e6fe99a0581a16698d11c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/anax/zipball/2b3d40ee39f8d4ec32cb0765b4c433ff312b9713",
-                "reference": "2b3d40ee39f8d4ec32cb0765b4c433ff312b9713",
+                "url": "https://api.github.com/repos/mosbth/anax/zipball/aec2412f3d33f3ba3e9e6fe99a0581a16698d11c",
+                "reference": "aec2412f3d33f3ba3e9e6fe99a0581a16698d11c",
                 "shasum": ""
             },
             "require": {
@@ -208,30 +208,31 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2016-09-12 21:00:06"
+            "time": "2016-11-15 11:36:55"
         },
         {
             "name": "mos/anax-flat",
-            "version": "v1.0.9",
+            "version": "v1.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/anax-flat.git",
-                "reference": "7a7aa5d358ba96339eb55b687b449d9d64c3088a"
+                "reference": "97577c137889349e2432f37fff734411af29f16e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/anax-flat/zipball/7a7aa5d358ba96339eb55b687b449d9d64c3088a",
-                "reference": "7a7aa5d358ba96339eb55b687b449d9d64c3088a",
+                "url": "https://api.github.com/repos/canax/anax-flat/zipball/97577c137889349e2432f37fff734411af29f16e",
+                "reference": "97577c137889349e2432f37fff734411af29f16e",
                 "shasum": ""
             },
             "require": {
-                "michelf/php-smartypants": "1.6.x-dev",
                 "mos/anax": "^2.5",
                 "mos/cimage": "^0.7",
-                "mos/ctextfilter": "^1.2"
+                "mos/ctextfilter": "^1.2",
+                "symfony/yaml": "^3.1"
             },
             "suggest": {
-                "ext-yaml": "*"
+                "ext-yaml": "*",
+                "mustangostang/spyc": "^0.6"
             },
             "type": "library",
             "extra": {
@@ -262,7 +263,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2016-10-07 15:29:10"
+            "time": "2016-11-15 11:47:21"
         },
         {
             "name": "mos/cimage",
@@ -324,28 +325,30 @@
         },
         {
             "name": "mos/ctextfilter",
-            "version": "v1.2.13",
+            "version": "v1.2.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/ctextfilter.git",
-                "reference": "d79520290b8d48a6f62547391f01a4b68f16ed29"
+                "reference": "35e6e77c94a3e6883392a03a8d03195fd5f16a5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/ctextfilter/zipball/d79520290b8d48a6f62547391f01a4b68f16ed29",
-                "reference": "d79520290b8d48a6f62547391f01a4b68f16ed29",
+                "url": "https://api.github.com/repos/mosbth/ctextfilter/zipball/35e6e77c94a3e6883392a03a8d03195fd5f16a5b",
+                "reference": "35e6e77c94a3e6883392a03a8d03195fd5f16a5b",
                 "shasum": ""
             },
             "require": {
                 "ezyang/htmlpurifier": "4.*",
                 "michelf/php-markdown": "1.6.*",
-                "michelf/php-smartypants": "1.6.x-dev",
+                "michelf/php-smartypants": "1.6.*",
                 "php": ">=5.4",
                 "scrivo/highlight.php": "^9.0"
             },
             "suggest": {
                 "ext-json": "*",
-                "ext-yaml": "*"
+                "ext-yaml": "*",
+                "mustangostang/spyc": "^0.6",
+                "symfony/yaml": "^3.1"
             },
             "type": "library",
             "extra": {
@@ -381,7 +384,7 @@
                 "markdown",
                 "shortcode"
             ],
-            "time": "2016-08-23 11:14:57"
+            "time": "2016-11-14 14:25:06"
         },
         {
             "name": "scrivo/highlight.php",
@@ -416,6 +419,55 @@
                 "syntax"
             ],
             "time": "2016-01-01 14:08:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v3.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-10-24 18:41:13"
         }
     ],
     "packages-dev": [],
