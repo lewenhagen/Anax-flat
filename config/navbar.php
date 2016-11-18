@@ -32,6 +32,18 @@ return [
                 "url"   => $this->di->get("url")->create("markdown"),
                 "title" => t("Testa markdown")
             ],
+            
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("LESS Grid")
+            ],
+            
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography Grid")
+            ],
         ],
     ],
 
@@ -66,6 +78,18 @@ return [
                 "text"  => t("Markdown"),
                 "url"   => $this->di->get("url")->create("markdown"),
                 "title" => t("Testa markdown")
+            ],
+            
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("LESS Grid")
+            ],
+            
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography Grid")
             ],
         ],
     ],

@@ -1,5 +1,5 @@
 ---
-views:
+view:
     byline:
         region: after-main
         template: default/content
